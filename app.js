@@ -31,7 +31,8 @@ app.use((req, res, next) => {
     next();
 });
 
-
+console.log(process.env.MONGODB_URL)
+console.log(process.env.Port)
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
