@@ -1,4 +1,4 @@
-const Employee = require('../Model/Employee');
+const Employee = require('../Model/Employee')
 const Joi = require('joi');
 
 ///////// create movie ///////////////////
